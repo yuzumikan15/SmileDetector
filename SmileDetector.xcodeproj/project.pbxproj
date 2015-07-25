@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B8F59771B5BC8140087CF66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F59761B5BC8140087CF66 /* AppDelegate.swift */; };
+		9B8F59791B5BC8140087CF66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F59781B5BC8140087CF66 /* ViewController.swift */; };
+		9B8F597C1B5BC8140087CF66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F597A1B5BC8140087CF66 /* Main.storyboard */; };
+		9B8F597E1B5BC8140087CF66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F597D1B5BC8140087CF66 /* Images.xcassets */; };
+		9B8F59811B5BC8140087CF66 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F597F1B5BC8140087CF66 /* LaunchScreen.xib */; };
+		9B8F598D1B5BC8140087CF66 /* SmileDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F598C1B5BC8140087CF66 /* SmileDetectorTests.swift */; };
+		9B8F59971B5BCB970087CF66 /* SmileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F59961B5BCB970087CF66 /* SmileView.swift */; };
+		9B8F59B01B5BCD210087CF66 /* kirin_a.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F59991B5BCD210087CF66 /* kirin_a.png */; };
+		9B8F59B11B5BCD210087CF66 /* kirin_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F599A1B5BCD210087CF66 /* kirin_b.png */; };
+		9B8F59B21B5BCD210087CF66 /* kirin_c.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F599B1B5BCD210087CF66 /* kirin_c.png */; };
+		9B8F59B31B5BCD210087CF66 /* kirin_d.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F599C1B5BCD210087CF66 /* kirin_d.png */; };
+		9B8F59B41B5BCD210087CF66 /* mesi_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F599D1B5BCD210087CF66 /* mesi_1.png */; };
+		9B8F59B51B5BCD210087CF66 /* mesi_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F599E1B5BCD210087CF66 /* mesi_2.png */; };
+		9B8F59B61B5BCD210087CF66 /* mesi_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F599F1B5BCD210087CF66 /* mesi_3.png */; };
+		9B8F59B71B5BCD210087CF66 /* mesi_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F59A01B5BCD210087CF66 /* mesi_4.png */; };
+		9B8F59B81B5BCD210087CF66 /* mesi_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F59A11B5BCD210087CF66 /* mesi_5.png */; };
+		9B8F59B91B5BCD210087CF66 /* mesi_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F59A21B5BCD210087CF66 /* mesi_6.png */; };
+		9B8F59BA1B5BCD210087CF66 /* mesi_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F59A31B5BCD210087CF66 /* mesi_7.png */; };
+		9B8F59BB1B5BCD210087CF66 /* mesi_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F59A41B5BCD210087CF66 /* mesi_8.png */; };
+		9B8F59BC1B5BCD210087CF66 /* mesi_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F59A51B5BCD210087CF66 /* mesi_9.png */; };
+		9B8F59BD1B5BCD210087CF66 /* ryo_a.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F59A61B5BCD210087CF66 /* ryo_a.png */; };
+		9B8F59BE1B5BCD210087CF66 /* ryo_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F59A71B5BCD210087CF66 /* ryo_b.png */; };
+		9B8F59BF1B5BCD210087CF66 /* ryo_c.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F59A81B5BCD210087CF66 /* ryo_c.png */; };
+		9B8F59C01B5BCD210087CF66 /* ryo_d.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F59A91B5BCD210087CF66 /* ryo_d.png */; };
+		9B8F59C11B5BCD210087CF66 /* shiina_a.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F59AA1B5BCD210087CF66 /* shiina_a.png */; };
+		9B8F59C21B5BCD210087CF66 /* shiina_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F59AB1B5BCD210087CF66 /* shiina_b.png */; };
+		9B8F59C31B5BCD210087CF66 /* yokoku1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F59AC1B5BCD210087CF66 /* yokoku1.png */; };
+		9B8F59C41B5BCD210087CF66 /* yokoku2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F59AD1B5BCD210087CF66 /* yokoku2.png */; };
+		9B8F59C51B5BCD210087CF66 /* yokoku3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F59AE1B5BCD210087CF66 /* yokoku3.png */; };
+		9B8F59C61B5BCD210087CF66 /* yokoku4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F59AF1B5BCD210087CF66 /* yokoku4.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B8F59871B5BC8140087CF66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B8F59691B5BC8140087CF66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B8F59701B5BC8140087CF66;
+			remoteInfo = SmileDetector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B8F59711B5BC8140087CF66 /* SmileDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8F59751B5BC8140087CF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B8F59761B5BC8140087CF66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B8F59781B5BC8140087CF66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B8F597B1B5BC8140087CF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B8F597D1B5BC8140087CF66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9B8F59801B5BC8140087CF66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9B8F59861B5BC8140087CF66 /* SmileDetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmileDetectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8F598B1B5BC8140087CF66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B8F598C1B5BC8140087CF66 /* SmileDetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileDetectorTests.swift; sourceTree = "<group>"; };
+		9B8F59961B5BCB970087CF66 /* SmileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmileView.swift; sourceTree = "<group>"; };
+		9B8F59991B5BCD210087CF66 /* kirin_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kirin_a.png; sourceTree = "<group>"; };
+		9B8F599A1B5BCD210087CF66 /* kirin_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kirin_b.png; sourceTree = "<group>"; };
+		9B8F599B1B5BCD210087CF66 /* kirin_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kirin_c.png; sourceTree = "<group>"; };
+		9B8F599C1B5BCD210087CF66 /* kirin_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kirin_d.png; sourceTree = "<group>"; };
+		9B8F599D1B5BCD210087CF66 /* mesi_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mesi_1.png; sourceTree = "<group>"; };
+		9B8F599E1B5BCD210087CF66 /* mesi_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mesi_2.png; sourceTree = "<group>"; };
+		9B8F599F1B5BCD210087CF66 /* mesi_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mesi_3.png; sourceTree = "<group>"; };
+		9B8F59A01B5BCD210087CF66 /* mesi_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mesi_4.png; sourceTree = "<group>"; };
+		9B8F59A11B5BCD210087CF66 /* mesi_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mesi_5.png; sourceTree = "<group>"; };
+		9B8F59A21B5BCD210087CF66 /* mesi_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mesi_6.png; sourceTree = "<group>"; };
+		9B8F59A31B5BCD210087CF66 /* mesi_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mesi_7.png; sourceTree = "<group>"; };
+		9B8F59A41B5BCD210087CF66 /* mesi_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mesi_8.png; sourceTree = "<group>"; };
+		9B8F59A51B5BCD210087CF66 /* mesi_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mesi_9.png; sourceTree = "<group>"; };
+		9B8F59A61B5BCD210087CF66 /* ryo_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ryo_a.png; sourceTree = "<group>"; };
+		9B8F59A71B5BCD210087CF66 /* ryo_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ryo_b.png; sourceTree = "<group>"; };
+		9B8F59A81B5BCD210087CF66 /* ryo_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ryo_c.png; sourceTree = "<group>"; };
+		9B8F59A91B5BCD210087CF66 /* ryo_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ryo_d.png; sourceTree = "<group>"; };
+		9B8F59AA1B5BCD210087CF66 /* shiina_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shiina_a.png; sourceTree = "<group>"; };
+		9B8F59AB1B5BCD210087CF66 /* shiina_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shiina_b.png; sourceTree = "<group>"; };
+		9B8F59AC1B5BCD210087CF66 /* yokoku1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yokoku1.png; sourceTree = "<group>"; };
+		9B8F59AD1B5BCD210087CF66 /* yokoku2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yokoku2.png; sourceTree = "<group>"; };
+		9B8F59AE1B5BCD210087CF66 /* yokoku3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yokoku3.png; sourceTree = "<group>"; };
+		9B8F59AF1B5BCD210087CF66 /* yokoku4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yokoku4.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B8F596E1B5BC8140087CF66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8F59831B5BC8140087CF66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B8F59681B5BC8140087CF66 = {
+			isa = PBXGroup;
+			children = (
+				9B8F59731B5BC8140087CF66 /* SmileDetector */,
+				9B8F59891B5BC8140087CF66 /* SmileDetectorTests */,
+				9B8F59721B5BC8140087CF66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B8F59721B5BC8140087CF66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F59711B5BC8140087CF66 /* SmileDetector.app */,
+				9B8F59861B5BC8140087CF66 /* SmileDetectorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B8F59731B5BC8140087CF66 /* SmileDetector */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F59981B5BCD210087CF66 /* Images */,
+				9B8F59761B5BC8140087CF66 /* AppDelegate.swift */,
+				9B8F59781B5BC8140087CF66 /* ViewController.swift */,
+				9B8F59961B5BCB970087CF66 /* SmileView.swift */,
+				9B8F597A1B5BC8140087CF66 /* Main.storyboard */,
+				9B8F597D1B5BC8140087CF66 /* Images.xcassets */,
+				9B8F597F1B5BC8140087CF66 /* LaunchScreen.xib */,
+				9B8F59741B5BC8140087CF66 /* Supporting Files */,
+			);
+			path = SmileDetector;
+			sourceTree = "<group>";
+		};
+		9B8F59741B5BC8140087CF66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F59751B5BC8140087CF66 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B8F59891B5BC8140087CF66 /* SmileDetectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F598C1B5BC8140087CF66 /* SmileDetectorTests.swift */,
+				9B8F598A1B5BC8140087CF66 /* Supporting Files */,
+			);
+			path = SmileDetectorTests;
+			sourceTree = "<group>";
+		};
+		9B8F598A1B5BC8140087CF66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F598B1B5BC8140087CF66 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B8F59981B5BCD210087CF66 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F59991B5BCD210087CF66 /* kirin_a.png */,
+				9B8F599A1B5BCD210087CF66 /* kirin_b.png */,
+				9B8F599B1B5BCD210087CF66 /* kirin_c.png */,
+				9B8F599C1B5BCD210087CF66 /* kirin_d.png */,
+				9B8F599D1B5BCD210087CF66 /* mesi_1.png */,
+				9B8F599E1B5BCD210087CF66 /* mesi_2.png */,
+				9B8F599F1B5BCD210087CF66 /* mesi_3.png */,
+				9B8F59A01B5BCD210087CF66 /* mesi_4.png */,
+				9B8F59A11B5BCD210087CF66 /* mesi_5.png */,
+				9B8F59A21B5BCD210087CF66 /* mesi_6.png */,
+				9B8F59A31B5BCD210087CF66 /* mesi_7.png */,
+				9B8F59A41B5BCD210087CF66 /* mesi_8.png */,
+				9B8F59A51B5BCD210087CF66 /* mesi_9.png */,
+				9B8F59A61B5BCD210087CF66 /* ryo_a.png */,
+				9B8F59A71B5BCD210087CF66 /* ryo_b.png */,
+				9B8F59A81B5BCD210087CF66 /* ryo_c.png */,
+				9B8F59A91B5BCD210087CF66 /* ryo_d.png */,
+				9B8F59AA1B5BCD210087CF66 /* shiina_a.png */,
+				9B8F59AB1B5BCD210087CF66 /* shiina_b.png */,
+				9B8F59AC1B5BCD210087CF66 /* yokoku1.png */,
+				9B8F59AD1B5BCD210087CF66 /* yokoku2.png */,
+				9B8F59AE1B5BCD210087CF66 /* yokoku3.png */,
+				9B8F59AF1B5BCD210087CF66 /* yokoku4.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B8F59701B5BC8140087CF66 /* SmileDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B8F59901B5BC8140087CF66 /* Build configuration list for PBXNativeTarget "SmileDetector" */;
+			buildPhases = (
+				9B8F596D1B5BC8140087CF66 /* Sources */,
+				9B8F596E1B5BC8140087CF66 /* Frameworks */,
+				9B8F596F1B5BC8140087CF66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmileDetector;
+			productName = SmileDetector;
+			productReference = 9B8F59711B5BC8140087CF66 /* SmileDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B8F59851B5BC8140087CF66 /* SmileDetectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B8F59931B5BC8140087CF66 /* Build configuration list for PBXNativeTarget "SmileDetectorTests" */;
+			buildPhases = (
+				9B8F59821B5BC8140087CF66 /* Sources */,
+				9B8F59831B5BC8140087CF66 /* Frameworks */,
+				9B8F59841B5BC8140087CF66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B8F59881B5BC8140087CF66 /* PBXTargetDependency */,
+			);
+			name = SmileDetectorTests;
+			productName = SmileDetectorTests;
+			productReference = 9B8F59861B5BC8140087CF66 /* SmileDetectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B8F59691B5BC8140087CF66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Yuki Ishii";
+				TargetAttributes = {
+					9B8F59701B5BC8140087CF66 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					9B8F59851B5BC8140087CF66 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 9B8F59701B5BC8140087CF66;
+					};
+				};
+			};
+			buildConfigurationList = 9B8F596C1B5BC8140087CF66 /* Build configuration list for PBXProject "SmileDetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B8F59681B5BC8140087CF66;
+			productRefGroup = 9B8F59721B5BC8140087CF66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B8F59701B5BC8140087CF66 /* SmileDetector */,
+				9B8F59851B5BC8140087CF66 /* SmileDetectorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B8F596F1B5BC8140087CF66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8F59C21B5BCD210087CF66 /* shiina_b.png in Resources */,
+				9B8F59BB1B5BCD210087CF66 /* mesi_8.png in Resources */,
+				9B8F59BD1B5BCD210087CF66 /* ryo_a.png in Resources */,
+				9B8F597C1B5BC8140087CF66 /* Main.storyboard in Resources */,
+				9B8F59BE1B5BCD210087CF66 /* ryo_b.png in Resources */,
+				9B8F59811B5BC8140087CF66 /* LaunchScreen.xib in Resources */,
+				9B8F59BC1B5BCD210087CF66 /* mesi_9.png in Resources */,
+				9B8F597E1B5BC8140087CF66 /* Images.xcassets in Resources */,
+				9B8F59C51B5BCD210087CF66 /* yokoku3.png in Resources */,
+				9B8F59B81B5BCD210087CF66 /* mesi_5.png in Resources */,
+				9B8F59B51B5BCD210087CF66 /* mesi_2.png in Resources */,
+				9B8F59C41B5BCD210087CF66 /* yokoku2.png in Resources */,
+				9B8F59BF1B5BCD210087CF66 /* ryo_c.png in Resources */,
+				9B8F59B41B5BCD210087CF66 /* mesi_1.png in Resources */,
+				9B8F59B61B5BCD210087CF66 /* mesi_3.png in Resources */,
+				9B8F59B71B5BCD210087CF66 /* mesi_4.png in Resources */,
+				9B8F59C31B5BCD210087CF66 /* yokoku1.png in Resources */,
+				9B8F59C11B5BCD210087CF66 /* shiina_a.png in Resources */,
+				9B8F59B21B5BCD210087CF66 /* kirin_c.png in Resources */,
+				9B8F59B01B5BCD210087CF66 /* kirin_a.png in Resources */,
+				9B8F59C61B5BCD210087CF66 /* yokoku4.png in Resources */,
+				9B8F59B31B5BCD210087CF66 /* kirin_d.png in Resources */,
+				9B8F59BA1B5BCD210087CF66 /* mesi_7.png in Resources */,
+				9B8F59C01B5BCD210087CF66 /* ryo_d.png in Resources */,
+				9B8F59B11B5BCD210087CF66 /* kirin_b.png in Resources */,
+				9B8F59B91B5BCD210087CF66 /* mesi_6.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8F59841B5BC8140087CF66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B8F596D1B5BC8140087CF66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8F59791B5BC8140087CF66 /* ViewController.swift in Sources */,
+				9B8F59971B5BCB970087CF66 /* SmileView.swift in Sources */,
+				9B8F59771B5BC8140087CF66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8F59821B5BC8140087CF66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8F598D1B5BC8140087CF66 /* SmileDetectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B8F59881B5BC8140087CF66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B8F59701B5BC8140087CF66 /* SmileDetector */;
+			targetProxy = 9B8F59871B5BC8140087CF66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B8F597A1B5BC8140087CF66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B8F597B1B5BC8140087CF66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B8F597F1B5BC8140087CF66 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B8F59801B5BC8140087CF66 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B8F598E1B5BC8140087CF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B8F598F1B5BC8140087CF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B8F59911B5BC8140087CF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmileDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B8F59921B5BC8140087CF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmileDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9B8F59941B5BC8140087CF66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmileDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmileDetector.app/SmileDetector";
+			};
+			name = Debug;
+		};
+		9B8F59951B5BC8140087CF66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmileDetectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmileDetector.app/SmileDetector";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B8F596C1B5BC8140087CF66 /* Build configuration list for PBXProject "SmileDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8F598E1B5BC8140087CF66 /* Debug */,
+				9B8F598F1B5BC8140087CF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B8F59901B5BC8140087CF66 /* Build configuration list for PBXNativeTarget "SmileDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8F59911B5BC8140087CF66 /* Debug */,
+				9B8F59921B5BC8140087CF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B8F59931B5BC8140087CF66 /* Build configuration list for PBXNativeTarget "SmileDetectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8F59941B5BC8140087CF66 /* Debug */,
+				9B8F59951B5BC8140087CF66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B8F59691B5BC8140087CF66 /* Project object */;
+}
