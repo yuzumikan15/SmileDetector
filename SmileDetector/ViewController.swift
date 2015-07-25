@@ -127,7 +127,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
 	}
 	
 	func detectFace (srcImage : CIImage) {
-		let options = [CIDetectorEyeBlink:true, CIDetectorSmile:true]
+		let options = [CIDetectorSmile:true]
 		let detector = CIDetector(ofType: CIDetectorTypeFace, context: nil, options: [CIDetectorAccuracy: CIDetectorAccuracyHigh])
 		let features = detector.featuresInImage(srcImage, options: options)
 		
